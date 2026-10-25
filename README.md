@@ -16,6 +16,9 @@ I work on **evaluating what language models actually do**, and on machine learni
   TF-IDF baseline, a fine-tuned RoBERTa, LoRA on Qwen2.5 and zero-shot LLMs, tested in domain
   (Financial PhraseBank) and out of domain (finance tweets). LoRA on Qwen2.5-1.5B ties a fully fine-tuned
   RoBERTa on news (88 macro-F1) but generalises worse to tweets (61 vs 73).
+- [**fx-ml-trading-research**](https://github.com/Alexden28/fx-ml-trading-research): a published
+  negative result. An MT4 + Python forex bot with an ML filter and a risk manager (demo only),
+  and the backtest, Monte Carlo and pre-registered walk-forward tests that found no edge.
 
 **LLM security and evaluation**
 
