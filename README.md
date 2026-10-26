@@ -7,8 +7,8 @@ I work on **evaluating what language models actually do**, and on machine learni
 
 - [**finllm-qa**](https://github.com/Alexden28/finllm-qa): fact-checks LLM-written financial
   commentary against SEC EDGAR and FRED data. Every number, direction word, period and company
-  is traced back to the source. Three small open LLMs told to use only the facts
-  still contradicted the data in 76% of 801 commentaries; checker precision 88% on a hand audit.
+  is traced back to the source. Four small open LLMs told to use only the facts
+  still contradicted the data in 68% of 1,068 commentaries; checker precision 88% in two hand audits.
 - [**backtest-overfitting-lab**](https://github.com/Alexden28/backtest-overfitting-lab): how much of a
   backtest is luck? 512 industry momentum strategies on 96 years of data, tested with the deflated
   Sharpe ratio, the probability of backtest overfitting and a placebo search on random signals.
