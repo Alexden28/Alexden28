@@ -9,6 +9,9 @@ I work on **evaluating what language models actually do**, and on machine learni
   commentary against SEC EDGAR and FRED data. Every number, direction word, period and company
   is traced back to the source. Three small open LLMs told to use only the facts
   still contradicted the data in 76% of 801 commentaries; checker precision 88% on a hand audit.
+- [**backtest-overfitting-lab**](https://github.com/Alexden28/backtest-overfitting-lab): how much of a
+  backtest is luck? 512 industry momentum strategies on 96 years of data, tested with the deflated
+  Sharpe ratio, the probability of backtest overfitting and a placebo search on random signals.
 - [**equity-vol-forecasting**](https://github.com/Alexden28/equity-vol-forecasting): GARCH, HAR
   and an LSTM forecasting NASDAQ and S&P 500 volatility out of sample (1998–2026), with Diebold-Mariano
   tests, VaR backtests and a volatility-targeting strategy. The LSTM does not beat GARCH(1,1).
